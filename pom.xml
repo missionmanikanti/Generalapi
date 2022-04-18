@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.magnitia</groupId>
+  <artifactId>org.magnitia.2pojoframework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+    	<groupId>io.rest-assured</groupId>
+    	<artifactId>rest-assured</artifactId>
+    	<version>4.3.3</version>
+    	<scope>test</scope>
+	</dependency>
+	<!--  java to json(serialization) useful for request body parameters-->
+	<dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20201115</version>
+	</dependency> 
+	<!--  json to java(Deserialization) useful for response in json-->
+	<dependency>
+    	<groupId>com.fasterxml.jackson.core</groupId>
+    	<artifactId>jackson-databind</artifactId>
+    	<version>2.12.3</version>
+	</dependency>
+	<!--  xml to java(Deserialization) useful for response in xml/html-->
+	<dependency>
+    	<groupId>com.fasterxml.jackson.dataformat</groupId>
+    	<artifactId>jackson-dataformat-xml</artifactId>
+    	<version>2.12.3</version>
+	</dependency>
+ </dependencies>
+</project>
